@@ -1,0 +1,555 @@
+body
+{
+margin: 0;
+}
+
+.grid
+{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.grid1
+{
+display: grid;
+grid-template-columns: 100%;
+}
+
+.grid2
+{
+display: grid;
+grid-template-columns: auto auto auto;
+}
+
+.grid4
+{
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+}
+
+.col-1
+{
+border: 1px solid black;
+background-color: black;
+}
+
+.col-2
+{
+border-style: none none solid none;
+}
+
+.col-3
+{
+padding: 20px;
+border: 1px solid black;
+}
+
+select
+{
+position: relative;
+top: 15px;
+left: 250px;
+background-color: black;
+color: white;
+border: none;
+}
+
+.col-2 a
+{
+padding: 20px;
+text-decoration: none;
+display: inline-block;
+font-size: 40px;
+right: -200px;
+color: black;
+position: relative;
+}
+
+#search
+{
+position: relative;
+top: 70px;
+}
+
+#account
+{
+position: relative;
+top: 70px;
+}
+
+#shopping-cart
+{
+position: relative;
+top: 70px;
+left: 45px ;
+}
+
+.menu
+{
+position: sticky;
+top: 0;
+background-color: white;
+z-index: 1;
+}
+
+form
+{
+position: sticky;
+top: 50%;
+left: 800px;
+color: green;
+background-color: silver;
+text-align: center;
+border: 1px solid green;
+width: 250px;
+height: 250px;
+display: none;
+z-index: 1;
+}
+form span
+{
+font-size: 30px;
+cursor: pointer;
+}
+
+#copy
+{
+float: left;
+font-size: 28px;
+position: relative;
+left: 50px;
+}
+
+#creator
+{
+float: right;
+font-size: 28px;
+position: relative;
+right: 50px;
+}
+
+.links
+{
+position: relative;
+top: 45px;
+right: 60px;
+}
+
+.col-2 p
+{
+text-align: center;
+font-size: 40px;
+}
+
+#AS1
+{
+float: right;
+}
+
+#AS2
+{
+float: right;
+}
+
+#AQS1
+{
+float: right;
+}
+
+#AQS2
+{
+float: right;
+}
+
+#B1
+{
+float: right;
+}
+
+#B2
+{
+float: right;
+}
+
+#size
+{
+position: relative;
+left: 100px;
+top: 14px;
+}
+
+#Size
+{
+background-color: white;
+color: black;
+border: 1px solid black;
+width: 300px;
+text-align: center;
+position: relative;
+left: 100px;
+}
+
+#color
+{
+position: relative;
+left: 115px;
+top: 14px;
+}
+
+#Color
+{
+background-color: white;
+color: black;
+border: 1px solid black;
+width: 300px;
+text-align: center;
+position: relative;
+left: 115px;
+}
+
+option #Cyan
+{
+background-color: cyan;
+}
+
+#changeShoe
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: gray;
+}
+
+#changeShoe2
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: black;
+}
+
+#changeShoe3
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: yellow;
+}
+
+#changeShoe4
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: darkcyan;
+}
+
+#changeShoe5
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: grey;
+}
+
+#changeShoe6
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: pink;
+}
+
+#changeShoe7
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: darkblue;
+}
+
+#changeShoe8
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: aliceblue;
+}
+
+#CS1
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: yellow;
+}
+
+#CS2
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: black;
+}
+
+#CS3
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: darkblue;
+}
+
+#CS4
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: slategrey;
+}
+
+#CS5
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: brown;
+}
+
+#CS6
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: seashell;
+}
+
+#CS7
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: whitesmoke;
+}
+
+#CS8
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: navy;
+}
+
+#CB1
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: lightsalmon;
+}
+
+#CB2
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: black;
+}
+
+#CB3
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: lightcoral;
+}
+
+#CB4
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: brown;
+}
+
+#CB5
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color:darkslategrey;
+}
+
+#CB6
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: green;
+}
+
+#CB7
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: gray;
+}
+
+#CB8
+{
+position: relative;
+right: 150px;
+top: 100px;
+border-radius: 50%;
+height: 15px;
+width: 15px;
+cursor: pointer;
+background-color: darkred;
+}
+
+@media screen and (max-width: 700px)  
+{
+.grid
+{
+grid-template-rows: 50% 50%;
+}
+
+.grid4
+{
+grid-template-rows: 25% 25% 25% 25%;
+}
+    
+.grid2
+{
+grid-template-rows: auto auto auto;
+}
+    
+.grid1
+{
+grid-template-rows: 100%;
+}
+
+#search
+{
+font-size: 15px;
+}
+
+#account
+{
+font-size: 15px;
+}
+
+#shopping-cart
+{
+font-size: 15px;
+}
+}
+
+figcaption
+{
+text-align: center;
+}
+
+.Buy
+{
+text-align: center;
+position: relative;
+top: 250px;
+right: 100px;
+font-size: 30px;
+color: green;
+cursor: pointer;
+}

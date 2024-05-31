@@ -1,0 +1,259 @@
+body
+{
+margin: 0;
+}
+
+.grid
+{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.grid1
+{
+display: grid;
+grid-template-columns: 100%;
+}
+
+.grid2
+{
+display: grid;
+grid-template-columns: auto auto auto;
+}
+
+.grid4
+{
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+}
+
+.col-1
+{
+border: 1px solid black;
+background-color: black;
+}
+
+.col-2
+{
+border-style: none none solid none;
+}
+
+.col-3
+{
+padding: 20px;
+border: 1px solid black;
+}
+
+select
+{
+position: relative;
+top: 15px;
+left: 250px;
+background-color: black;
+color: white;
+border: none;
+}
+
+.col-2 a
+{
+padding: 20px;
+text-decoration: none;
+display: inline-block;
+font-size: 40px;
+right: -200px;
+color: black;
+position: relative;
+}
+
+#search
+{
+position: relative;
+top: 70px;
+}
+
+#account
+{
+position: relative;
+top: 70px;
+}
+
+#shopping-cart
+{
+position: relative;
+top: 70px;
+left: 45px ;
+}
+
+.menu
+{
+position: sticky;
+top: 0;
+background-color: white;
+z-index: 1;
+}
+
+form
+{
+position: sticky;
+top: 50%;
+left: 800px;
+color: green;
+background-color: silver;
+text-align: center;
+border: 1px solid green;
+width: 250px;
+height: 250px;
+display: none;
+z-index: 1;
+}
+form span
+{
+font-size: 30px;
+cursor: pointer;
+}
+
+#copy
+{
+float: left;
+font-size: 28px;
+position: relative;
+left: 50px;
+}
+
+#creator
+{
+float: right;
+font-size: 28px;
+position: relative;
+right: 50px;
+}
+
+.links
+{
+position: relative;
+top: 45px;
+right: 60px;
+}
+
+.ArrowL img
+{
+position: relative;
+top: 40px;
+width: 50px;
+cursor: pointer;
+float: left;
+}
+
+.ArrowR img
+{
+position: relative;
+top: 50px;
+width: 50px;
+cursor: pointer;
+float: right;
+}
+
+.slider img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+top: 200px;
+}
+
+.slider
+{
+display: none;
+}
+
+.rotate
+{
+cursor: pointer;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+position: relative;
+animation: rotate 2s linear  ;
+}
+
+.rotatef
+{
+text-align: center;
+font-size: 40px;
+color: green;
+animation: rotate 2s linear ;
+}
+
+figcaption
+{
+text-align: center;
+font-size: 35px;
+color: green;
+}
+
+figcaption button
+{
+text-align: center;
+font-size: 30px;
+color: green;
+cursor: pointer;
+}
+
+@keyframes rotate 
+{
+0% {rotate: y 360deg;}
+}
+
+.product
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+caption
+{
+align-self: center;
+}
+
+@media screen and (max-width: 700px)  
+{
+.grid
+{
+grid-template-rows: 50% 50%;
+}
+
+.grid4
+{
+grid-template-rows: 25% 25% 25% 25%;
+}
+    
+.grid2
+{
+grid-template-rows: auto auto auto;
+}
+    
+.grid1
+{
+grid-template-rows: 100%;
+}
+
+#search
+{
+font-size: 15px;
+}
+
+#account
+{
+font-size: 15px;
+}
+
+#shopping-cart
+{
+font-size: 15px;
+}
+
+}
+

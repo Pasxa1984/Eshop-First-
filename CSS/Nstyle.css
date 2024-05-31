@@ -1,0 +1,410 @@
+body
+{
+margin: 0;
+}
+
+.grid
+{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.grid1
+{
+display: grid;
+grid-template-columns: 100%;
+}
+
+.grid2
+{
+display: grid;
+grid-template-columns: auto auto auto;
+}
+
+.grid4
+{
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+}
+
+.col-1
+{
+border: 1px solid black;
+background-color: black;
+}
+
+.col-2
+{
+border-style: none none solid none;
+}
+
+.col-3
+{
+padding: 20px;
+border: 1px solid black;
+}
+
+select
+{
+position: relative;
+top: 15px;
+left: 250px;
+background-color: black;
+color: white;
+border: none;
+}
+
+.col-2 a
+{
+padding: 20px;
+text-decoration: none;
+display: inline-block;
+font-size: 40px;
+right: -200px;
+color: black;
+position: relative;
+}
+
+#search
+{
+position: relative;
+top: 70px;
+}
+
+#account
+{
+position: relative;
+top: 70px;
+}
+
+#shopping-cart
+{
+position: relative;
+top: 70px;
+left: 45px ;
+}
+
+.menu
+{
+position: sticky;
+top: 0;
+background-color: white;
+z-index: 1;
+}
+
+form
+{
+position: sticky;
+top: 50%;
+left: 800px;
+color: green;
+background-color: silver;
+text-align: center;
+border: 1px solid green;
+width: 250px;
+height: 250px;
+display: none;
+z-index: 1;
+}
+form span
+{
+font-size: 30px;
+cursor: pointer;
+}
+
+#copy
+{
+float: left;
+font-size: 28px;
+position: relative;
+left: 50px;
+}
+
+#creator
+{
+float: right;
+font-size: 28px;
+position: relative;
+right: 50px;
+}
+
+.links
+{
+position: relative;
+top: 45px;
+right: 60px;
+}
+
+#Winter
+{
+text-align: center;
+animation: Winter 2s linear infinite;
+}
+
+@keyframes Winter 
+{
+0% {color: white;}
+20% {color: aliceblue;} 
+40% {color: silver;}   
+60% {color: cyan;}   
+80% {color: aqua;}  
+100% {color: blue;}    
+}
+
+#WinterCollection4
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#WinterCollection3
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#WinterCollection2
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#WinterCollection1
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#Autumn
+{
+text-align: center;
+animation: Autumn 2s linear infinite;
+}
+
+@keyframes Autumn 
+{
+0% {color: yellowgreen;}
+20% {color: lightyellow;} 
+40% {color: lightcoral;}   
+60% {color: orange;}   
+80% {color: orangered;}  
+100% {color: red;}    
+}
+
+.col-3B
+{
+padding: 20px;
+border: 1px solid black;
+border-style: solid none solid solid;
+}
+
+#AutumnCollection4
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#AutumnCollection3
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#AutumnCollection2
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#AutumnCollection1
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#A
+{
+text-align: center;
+font-size: 35px;
+}
+
+#A button
+{
+color: orange;
+background-color: black;
+cursor: pointer;
+}
+
+#W
+{
+text-align: center;
+font-size: 35px;
+}
+
+#W button
+{
+color: cyan;
+background-color: black;
+cursor: pointer;
+}
+
+#Spring
+{
+text-align: center;
+animation: Spring 2s linear infinite;
+}
+
+@keyframes Spring 
+{
+0% {color: yellowgreen;}
+20% {color: lightgreen;} 
+40% {color: lime;}   
+60% {color: limegreen;}   
+80% {color: green;}  
+100% {color: darkgreen;}    
+}
+
+#S
+{
+text-align: center;
+font-size: 35px;
+}
+
+#S button
+{
+color: lime;
+background-color: black;
+cursor: pointer;
+}
+
+#SpringCollection4
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#SpringCollection3
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#SpringCollection2
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#SpringCollection1
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#Summer
+{
+text-align: center;
+animation: Summer 2s linear infinite;
+}
+
+@keyframes Summer 
+{
+0% {color: yellowgreen;}
+20% {color: lightyellow;} 
+40% {color: yellow;}   
+60% {color: lightcoral;}   
+80% {color: orange;}  
+100% {color: darkorange;}    
+}
+
+#SA
+{
+text-align: center;
+font-size: 35px;
+}
+
+#SA button
+{
+color: red;
+background-color: black;
+cursor: pointer;
+}
+
+#SummerCollection4
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#SummerCollection3
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#SummerCollection2
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#SummerCollection1
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media screen and (max-width: 700px)  
+{
+.grid
+{
+grid-template-rows: 50% 50%;
+}
+
+.grid4
+{
+grid-template-rows: 25% 25% 25% 25%;
+}
+    
+.grid2
+{
+grid-template-rows: auto auto auto;
+}
+    
+.grid1
+{
+grid-template-rows: 100%;
+}
+
+#search
+{
+font-size: 15px;
+}
+
+#account
+{
+font-size: 15px;
+}
+
+#shopping-cart
+{
+font-size: 15px;
+}
+
+}
